@@ -1,13 +1,12 @@
-########################################################
-########################################################
-########### HYSTRIX SKULL MORPHOMETRICS ################
-########################################################
-########################################################
-# Code by Marco Plebani
+# DATA AND ANALYSES FROM:
+# Mori, E., Ancillotto, L., Lovari, S., Russo, D., Nerva, L., Mohamed, W.F., Motro, Y., Di Bari, P. and Plebani, M. (2019), Skull shape and Bergmann's rule in mammals: hints from Old World porcupines. J Zool, 308: 47-55. https://doi.org/10.1111/jzo.12651
 
-##########################
-# Import and tidy up data
-##########################
+# Analyses by Marco Plebani - marcoplebani85@gmail.com
+# Code last checked on 27 May 2021
+
+#######################################################
+# Differences in skull volume across all study species
+#######################################################
 
 rm(list=ls())
 
@@ -17,12 +16,6 @@ source('Hystrix_skull_analyses_intro.R')
 # contains the lines:
 # aa1 <- subset(aa, aa$Verydubious=="no")
 # aa1 <- subset(aa1, aa1$locality_country=="locality")
-
-################################
-################################
-# Let's look at differences in skull volume across all species at once 
-################################
-################################
 
 sum(!is.na(aa1[aa1$cranial_height<60 & aa1$clusters =="cristata_mediter_clade_Italy",]$condylobasal_length)) # 74, not 75
 sum(!is.na(aa1[aa1$cranial_height<60 & aa1$clusters =="cristata_mediter_clade_Africa",]$condylobasal_length)) # 10, not 07

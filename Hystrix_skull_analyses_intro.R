@@ -1,12 +1,12 @@
-########################################################
-########################################################
-########### HYSTRIX SKULL MORPHOMETRICS ################
-########################################################
-########################################################
+# DATA AND ANALYSES FROM:
+# Mori, E., Ancillotto, L., Lovari, S., Russo, D., Nerva, L., Mohamed, W.F., Motro, Y., Di Bari, P. and Plebani, M. (2019), Skull shape and Bergmann's rule in mammals: hints from Old World porcupines. J Zool, 308: 47-55. https://doi.org/10.1111/jzo.12651
 
-##########################
-# Import and tidy up data
-##########################
+# Analyses by Marco Plebani - marcoplebani85@gmail.com
+# Code last checked on 27 May 2021
+
+############################################
+# Import and tidy up data; load packages
+############################################
 
 # rm(list=ls())
 
@@ -31,4 +31,5 @@ pacman::p_load(ade4) # mixed effect models
 # Load data
 
 load('Hystrix.RData')
-
+# a copy of the datasets stored at DOI: XXX
+# see metadata provided at OI: XXX for details

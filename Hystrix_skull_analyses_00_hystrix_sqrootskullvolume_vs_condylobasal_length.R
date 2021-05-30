@@ -1,13 +1,14 @@
-########################################################
-########################################################
-########### HYSTRIX SKULL MORPHOMETRICS ################
-########################################################
-########################################################
-# Code by Marco Plebani
+# DATA AND ANALYSES FROM:
+# Mori, E., Ancillotto, L., Lovari, S., Russo, D., Nerva, L., Mohamed, W.F., Motro, Y., Di Bari, P. and Plebani, M. (2019), Skull shape and Bergmann's rule in mammals: hints from Old World porcupines. J Zool, 308: 47-55. https://doi.org/10.1111/jzo.12651
 
-##########################
-# Import and tidy up data
-##########################
+# Analyses by Marco Plebani - marcoplebani85@gmail.com
+# Code last checked on 27 May 2021
+
+################################
+# Correlation between the cube root of the skull volume and condylobasal length
+# (to choose which to use as a proxy of skull size)
+################################
+
 
 rm(list=ls())
 

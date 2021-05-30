@@ -1,10 +1,12 @@
-########################################################
-########################################################
-########### HYSTRIX SKULL MORPHOMETRICS ################
-########################################################
-########################################################
+# DATA AND ANALYSES FROM:
+# Mori, E., Ancillotto, L., Lovari, S., Russo, D., Nerva, L., Mohamed, W.F., Motro, Y., Di Bari, P. and Plebani, M. (2019), Skull shape and Bergmann's rule in mammals: hints from Old World porcupines. J Zool, 308: 47-55. https://doi.org/10.1111/jzo.12651
 
-# Code by Marco Plebani
+# Analyses by Marco Plebani - marcoplebani85@gmail.com
+# Code last checked on 27 May 2021
+
+######################################################
+# Multivariate analyses: Principal Component Analysis
+######################################################
 
 rm(list=ls())
 
