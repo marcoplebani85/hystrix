@@ -1,6 +1,9 @@
 # DATA AND ANALYSES FROM:
 # Mori, E., Ancillotto, L., Lovari, S., Russo, D., Nerva, L., Mohamed, W.F., Motro, Y., Di Bari, P. and Plebani, M. (2019), Skull shape and Bergmann's rule in mammals: hints from Old World porcupines. J Zool, 308: 47-55. https://doi.org/10.1111/jzo.12651
 
+# TO CITE:
+# Plebani, Marco; Ancillotto, Leonardo; Lovari, Sandro; Russo, Danilo; Nerva, Luca; Mohamed, Walid Fathy; Motro, Yoav; Di Bari, Pietro; Mori, Emiliano. (2021, June 5). Reproducible statistical analyses from: “Skull shape and Bergmann’s rule in mammals: hints from Old World porcupines”. Zenodo. http://doi.org/10.5281/zenodo.4903838
+
 # Analyses by Marco Plebani - marcoplebani85@gmail.com
 # Code last checked on 27 May 2021
 
